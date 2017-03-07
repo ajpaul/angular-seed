@@ -1,0 +1,22 @@
+<div class="container" ng-app="app" ng-controller="View4Ctrl">
+  
+  <div class="text-center">
+    <p>Example of Angular and the normal Bootstrap JavaScript components</p>
+    <p class="text-success">This will work</p>
+  </div>
+  
+  <h2>Buttons</h2>
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-primary" ng-model="bigData.breakfast" btn-checkbox>
+      Breakfast
+    </label>
+    <label class="btn btn-primary" ng-model="bigData.lunch" btn-checkbox>
+      Lunch
+    </label>
+    <label class="btn btn-primary" ng-model="bigData.dinner" btn-checkbox>
+      Dinner
+    </label>
+  </div>
+    
+  <pre><code>{{ bigData | json }}</code></pre> 
+</div>
